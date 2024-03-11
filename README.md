@@ -1,59 +1,34 @@
-<!--
-**S-YED/S-YED** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.-->
-
-### Hi there 👋, I'm Syed Khaja Moinuddin
-
-I'm passionate about building efficient and user-friendly web applications. Currently pursuing B.E- CSE at Government Engineering Collee Ramanagara, affiliated to Vesveswaraya Technological University. <br>I love exploring new technologies and turning ideas into reality. <br>Welcome to my GitHub profile!
-
-## 🚀 Projects
-
-### [GECR Store Management System](link-to-your-project)
-- A comprehensive inventory management system for educational institutions.
-- Technologies: Python Flask, HTML/CSS, MySQL.
-- Key features: Efficient inventory control, real-time updates, enhanced security.
-
-### [Personal Portfolio](https://syed.rf.gd/)
-- A static website is a visual representation of my journey as a web developer. Crafted with HTML, CSS, and JavaScript, the portfolio showcases my skills, projects, and design philosophy..
-- Technologies: HTML/CSS/JavaScript, Bootsrap.
-- Key features: Responsive Web Design.
-
-## 🛠️ Skills
-
-- **Languages:** Python, HTML, CSS, JAVA, C
-- **Frameworks:** Flask
-- **Database:** MySQL
-- **Other Technologies:** Google Cloud, Aws Cloud.
-
-## 🌐 Connect with Me
-
-Let's connect, learn, and code together!
-
-<div class="social-links">
-  <a href="https://github.com/S-YED">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
-      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-    </svg>
-  </a>
-  <a href="https://twitter.com/@Skm_ahmed1">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
-      <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-    </svg>
-  </a>
-  <a href="https://linkedin.com/in/syed-khaja-moinuddin-051495254/">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
-      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2H12a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12h-4z"></path>
-    </svg>
-  </a>
-</div>
-[Instagram](instagram.com/_syedkhajamoinuddin/)
-[LeetCode](https://leetcode.com/Dr_H4CK3R/)
-[Google Developer](g.dev/skm-dev)
-## 📊 GitHub Stats
-
-[My GitHub stats](https://github-readme-stats.vercel.app/api?username=S-YED&show_icons=true&theme=radical)
-
-[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=S-YED&layout=compact&theme=radical)
+# 💫 About Me:
+Hello!👋🏻 My name IS Syed Khaja Moinuddin. I am from  India and  pursuing B.E- CSE at Government Engineering Collee Ramanagara, affiliated to Visveswaraya Technological University🏫.<br><br>I have a huge interest in Web/Software Development and Cloud Technology📝 as well as coding👩‍💻! .<br><br>I love exploring new technologies and turning ideas into reality. <br><br>Welcome to my GitHub profile!<br><br>
 
 
-⭐️ Feel free to explore my projects and connect with me. Let's build amazing things together! ⭐️
+## 🌐 Socials:
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.com/invite/3QG3MRU) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/people/Syed-Khaja-Moinuddin/100008455358117/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/instagram.com/_syedkhajamoinuddin/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/linkedin.com/in/syed-khaja-moinuddin-051495254/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/twitter.com/@Skm_ahmed1) 
 
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=plastic&logo=github&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=plastic&logo=angularjs&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=plastic&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=plastic&logo=django&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=plastic&logo=mysql&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=S-YED&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=S-YED&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=S-YED&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=S-YED&theme=radical&no-frame=true&no-bg=true&margin-w=4)
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=S-YED&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+### 😂 Random Dev Meme
+<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
+
+---
+[![](https://visitcount.itsvg.in/api?id=S-YED&icon=1&color=1)](https://visitcount.itsvg.in)
+
+  ## 💰 You can help me by Donating
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/@syedkm) 
+
+  
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
