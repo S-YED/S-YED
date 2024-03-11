@@ -1,6 +1,6 @@
 # 💫 About Me:
 ![Profile Image](https://raw.githubusercontent.com/S-YED/S-YED/e6bd0dc5e9053bac4b3ca83341342f97e15ee711/syedhit.png)
-Hello!👋🏻 My Name is Syed Khaja Moinuddin. <br>I am pursuing B.E- CSE at Government Engineering Collee Ramanagara, affiliated to Visveswaraya Technological University🏫.<br><br>I have a huge interest in Web/Software Development and Cloud Technology📝 as well as coding👩‍💻! .<br><br>I love exploring new technologies and turning ideas into reality. <br><br>Welcome to my GitHub profile!<br><br>
+Hello!👋🏻 My Name is Syed Khaja Moinuddin. <br><br>I am pursuing B.E- CSE at Government Engineering College Ramanagara, affiliated to Visveswaraya Technological University🏫.<br><br>I have a huge interest in Web/Software Development and Cloud Technology📝 as well as Cybersecurity👩‍💻! .<br><br>I love exploring new technologies and turning ideas into reality. <br><br>Welcome to my GitHub profile!<br><br>
 
 
 ## 🌐 Socials:
@@ -16,18 +16,16 @@ Hello!👋🏻 My Name is Syed Khaja Moinuddin. <br>I am pursuing B.E- CSE at Go
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=S-YED&theme=radical&no-frame=true&no-bg=true&margin-w=4)
 
-### ✍️ Random Dev Quote
+### ✍️ Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=S-YED&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-### 😂 Random Dev Meme
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=S-YED&icon=1&color=1)](https://visitcount.itsvg.in)
 
 
   
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
