@@ -12,7 +12,7 @@ I'm passionate about building efficient and user-friendly web applications. Curr
 - Technologies: Python Flask, HTML/CSS, MySQL.
 - Key features: Efficient inventory control, real-time updates, enhanced security.
 
-### [Another Project](https://syed.rf.gd/)
+### [Personal Portfolio](https://syed.rf.gd/)
 - This static website is a visual representation of my journey as a web developer. Crafted with HTML, CSS, and JavaScript, the portfolio showcases my skills, projects, and design philosophy..
 - Technologies: HTML/CSS/JavaScript, Bootsrap.
 - Key features: Responsive Web Design.
