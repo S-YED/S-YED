@@ -1,6 +1,6 @@
 # 💫 About Me:
 ![Profile Image](https://raw.githubusercontent.com/S-YED/S-YED/e6bd0dc5e9053bac4b3ca83341342f97e15ee711/syedhit.png)
-Hello!👋🏻 My Name is Syed Khaja Moinuddin. <br><br>I am pursuing B.E- CSE at Government Engineering College Ramanagara, affiliated to Visveswaraya Technological University🏫.<br><br>I have a huge interest in Web/Software Development and Cloud Technology📝 as well as Cybersecurity👩‍💻! .<br><br>I love exploring new technologies and turning ideas into reality. <br><br>Welcome to my GitHub profile!<br><br>
+Hello!👋🏻 Iam Syed Khaja Moinuddin. <br><br> 👉Pursuing B.E- CSE at Government Engineering College Ramanagara, affiliated to Visveswaraya Technological University🏫.<br><br>I am an Aspiring Java Developer wtih Strong Understanding of DSA. Proficient in Cloud Tech - AWS, GCP📝.<br><br>As well as I have Good Understanding of Foundational Concepts of Cybersecurity👩‍💻!.<br><br>I love exploring new technologies and turning ideas into reality. <br><br>Welcome to my GitHub profile!<br><br>
 
 
 ## 🌐 Socials:
