@@ -1,6 +1,6 @@
 # 💫 About Me:
 ![Profile Image](https://raw.githubusercontent.com/S-YED/S-YED/e6bd0dc5e9053bac4b3ca83341342f97e15ee711/syedhit.png)
-Hello!👋🏻 Iam Syed Khaja Moinuddin. <br><br> 🚀 CS Major @ GEC Ramanagara (VTU) | Blockchain & Web3 Enthusiast | Building innovative solutions with code & decentralization | Always learning, always evolving!<br><br>A Java Dev wtih Strong Understanding of DSA. Proficient in Blockchain - Dapps,ZK and Cloud Tech - AWS, GCP📝.<br><br>As well as I have Good Understanding of Foundational Concepts of Cybersecurity👩‍💻!.<br><br>I love exploring new technologies and turning ideas into reality. <br><br>Welcome to my GitHub profile!<br><br>
+Hello!👋🏻 Iam Syed Khaja Moinuddin. <br><br> 🚀 CS Major @ GEC Ramanagara (VTU) | Blockchain & Web3 Enthusiast | Building innovative solutions with code & decentralization | Always learning, always evolving!<br><br>Java Dev with strong DSA & Cybersecurity fundamentals 👩‍💻 | Proficient in Blockchain (Dapps, ZK), Cloud Tech (AWS, GCP) & passionate about Open Source 🌍 | Well-versed in the AI revolution 🤖!"<br><br>I love exploring new technologies and turning ideas into reality. <br><br>Welcome to my GitHub profile!<br><br>
 
 
 ## 🌐 Socials:
