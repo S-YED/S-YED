@@ -1,6 +1,17 @@
 # 💫 About Me:
 ![Profile Image](https://raw.githubusercontent.com/S-YED/S-YED/e6bd0dc5e9053bac4b3ca83341342f97e15ee711/syedhit.png)
-Hello!👋🏻 Iam Syed Khaja Moinuddin. <br><br> 🚀 CS Major @ GEC Ramanagara (VTU) | Blockchain & Web3 Enthusiast | Building innovative solutions with code & decentralization | Always learning, always evolving!<br><br>Java Dev with strong DSA & Cybersecurity fundamentals 👩‍💻 | Proficient in Blockchain (Dapps, ZK), Cloud Tech (AWS, GCP) & passionate about Open Source 🌍 | Well-versed in the AI revolution 🤖!"<br><br>I love exploring new technologies and turning ideas into reality. <br><br>Welcome to my GitHub profile!<br><br>
+# Hello! 👋🏻 I'm Syed Khaja Moinuddin
+
+🎓 **Computer Science Graduate (VTU - GEC Ramanagara)** | **Java Full Stack Developer**  
+Focused on building scalable web apps & microservices with modern backend technologies.
+
+💻 **Skills:** Core Java, Spring Boot, REST APIs, Microservices, Docker, Kafka, PostgreSQL, HTML, CSS, JavaScript  
+☁️ Exploring **Spring Boot advanced concepts, JavaScript (frontend)**, and **Cloud (AWS)**  
+🌱 Strong in **Core Java, OOPs, DSA, and backend development**  
+🚀 Currently building a **Patient Management System (microservices architecture)**  
+🤝 **Actively looking for opportunities** to start my career and contribute to impactful projects!
+
+
 
 
 ## 🌐 Socials:
