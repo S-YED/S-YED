@@ -2,7 +2,7 @@
 ![Profile Image](https://raw.githubusercontent.com/S-YED/S-YED/e6bd0dc5e9053bac4b3ca83341342f97e15ee711/syedhit.png)
 # Hello! 👋🏻 I'm Syed Khaja Moinuddin
 
-🎓 **Computer Science Graduate (VTU - GEC Ramanagara)** | **Java Full Stack Developer**  
+🎓 **Open-Source Contributor | Computer Science Graduate (VTU - GEC Ramanagara)** | **Java Full Stack Developer**  
 Focused on building scalable web apps & microservices with modern backend technologies.
 
 💻 **Skills:** Core Java, Spring Boot, REST APIs, Microservices, Docker, Kafka, PostgreSQL, HTML, CSS, JavaScript  
