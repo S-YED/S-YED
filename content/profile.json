@@ -1,0 +1,132 @@
+{
+  "_note": "Single source of truth for every word on the profile. Each piece of copy cites the fact it rests on. scripts/build.py --check fails if a number appears that its fact does not list.",
+  "facts": {
+    "F-04": { "text": "Sole QA on a live edtech app", "numbers": [] },
+    "F-05": { "text": "8 production releases across web and mobile", "numbers": ["8"] },
+    "F-06": { "text": "150+ defects logged with severity, priority and repro steps", "numbers": ["150"] },
+    "F-07": { "text": "250+ test cases for one release on web, Android and iOS", "numbers": ["250"] },
+    "F-09": { "text": "Designed and implemented the CI/CD pipeline and the GitFlow branching strategy", "numbers": [] },
+    "F-10": { "text": "Reviewed 20+ developer PRs for logic issues, edge cases and regressions", "numbers": ["20"] },
+    "F-11": { "text": "Black-box Playwright suite against production in three tiers: 9 critical, 14 daily, 9 deep on demand", "numbers": ["9", "14"] },
+    "F-13": { "text": "Local-only QA and security harness: fail-closed localhost gate, seeded data cleaned with a residue check, redacted logs. Design only, findings private", "numbers": [] },
+    "F-14": { "text": "QA Forge: public repo, working demo, in progress", "numbers": [] },
+    "F-15": { "text": "Post Buddy: a facts assertion throws away any draft with a number the author did not supply; 3 tries, then the run fails. 500+ automated tests", "numbers": ["3", "500"] },
+    "F-20": { "text": "Keploy API Fellow, 2025", "numbers": ["2025"] },
+    "F-22": { "text": "Pratyaya (trustlens-mcp): Python MCP server that checks a suspicious message against an India scam taxonomy in English, Hindi and Kannada (3 languages)", "numbers": ["3"] },
+    "TOOLS": { "text": "Tools and languages backed by the skills list (08 section 2.6) and F-08, F-09, F-11, F-17, F-37", "numbers": [] },
+    "BLOG": { "text": "The author's own published line, blog post owning-qa-solo, confirmed still held 2026-11-10", "numbers": [] }
+  },
+  "allow": [],
+  "hero": {
+    "kicker": "SDET · release gates · LLM evals",
+    "headline": "I test where fast-shipped and",
+    "accent": "AI-powered software breaks.",
+    "proof": ["Sole QA · ", "8", " production releases across web and mobile"],
+    "byline": "Syed Khaja Moinuddin · SDET",
+    "facts": ["F-04", "F-05"]
+  },
+  "about": {
+    "text": "I'm an SDET and the only QA on a live edtech app. Across 8 production releases on web and mobile I logged 150+ defects with steps to reproduce, and wrote 250+ test cases for a single release. I built a three-tier Playwright release gate against production, and a content tool that throws out its own draft if the AI writes a number I didn't give it.",
+    "built": "This profile is held to the same rule. The script that builds it refuses to render a number I did not supply.",
+    "facts": ["F-04", "F-05", "F-06", "F-07", "F-11", "F-15"]
+  },
+  "run": {
+    "file": "profile.spec.ts",
+    "command": "npx playwright test profile.spec.ts",
+    "note": "The last line is enforced. The build fails if a number here is not in my fact file.",
+    "lines": [
+      { "tag": "@critical", "text": "sole QA on a live edtech app", "fact": "F-04", "status": "pass" },
+      { "tag": "@critical", "text": "release gate: 9 critical, 14 daily", "fact": "F-11", "status": "pass" },
+      { "tag": "@daily", "text": "20+ developer PRs reviewed", "fact": "F-10", "status": "pass" },
+      { "tag": "@daily", "text": "CI/CD pipeline and GitFlow branching", "fact": "F-09", "status": "pass" },
+      { "tag": "@deep", "text": "AI drafts that invent a number fail", "fact": "F-15", "status": "pass" },
+      { "tag": "@deep", "text": "Keploy API Fellow, 2025", "fact": "F-20", "status": "pass" },
+      { "tag": "@deep", "text": "QA Forge: working demo, in progress", "fact": "F-14", "status": "progress" }
+    ],
+    "results": [
+      { "n": "8", "tag": "@releases", "sub": "production, web and mobile", "fact": "F-05" },
+      { "n": "150+", "tag": "@defects", "sub": "logged with repro steps", "fact": "F-06" },
+      { "n": "250+", "tag": "@test cases", "sub": "one release: web, Android, iOS", "fact": "F-07" }
+    ]
+  },
+  "cases": [
+    {
+      "id": "release-gate",
+      "kicker": "case · release gate",
+      "title": "Three-tier release gate for a live SaaS app",
+      "context": ["Deep tests create real accounts", "in production on every run."],
+      "decision": ["Split the Playwright suite", "by what one run costs."],
+      "stats": [
+        { "n": "9", "tag": "@critical", "sub": "safe any time" },
+        { "n": "14", "tag": "@daily", "sub": "on a schedule" },
+        { "n": "9", "tag": "@deep", "sub": "on demand", "risk": true }
+      ],
+      "fact": "F-11",
+      "href": "https://syedkm.com/work/release-gate-suite"
+    },
+    {
+      "id": "facts-assertion",
+      "kicker": "case · post buddy",
+      "title": "A content tool with a facts assertion",
+      "context": ["An LLM drafts posts only", "from facts I enter."],
+      "decision": ["A number I did not supply", "throws the draft away."],
+      "stats": [
+        { "n": "3", "tag": "@tries", "sub": "then the run fails" },
+        { "n": "500+", "tag": "@tests", "sub": "automated" }
+      ],
+      "fact": "F-15",
+      "href": "https://syedkm.com/work/facts-assertion"
+    },
+    {
+      "id": "security-harness",
+      "kicker": "case · design only",
+      "title": "Local QA and security harness",
+      "context": ["Functional tests never ask", "who else can read an account."],
+      "decision": ["Probe access, sessions and", "injection on localhost only."],
+      "checks": ["fail-closed localhost gate", "seeded data cleaned up", "logs never hold real values"],
+      "note": "findings stay private",
+      "fact": "F-13",
+      "href": "https://syedkm.com/work/local-security-harness"
+    },
+    {
+      "id": "pratyaya",
+      "kicker": "case · pratyaya (trustlens-mcp)",
+      "title": "Scam-message checks in three languages",
+      "context": ["Suspicious messages in English,", "Hindi and Kannada."],
+      "decision": ["A Python MCP server checks each", "against an India scam taxonomy."],
+      "stats": [
+        { "n": "3", "tag": "@languages", "sub": "English · Hindi · Kannada" }
+      ],
+      "fact": "F-22",
+      "href": ""
+    }
+  ],
+  "principle": {
+    "lines": ["A boring checklist you actually run", "beats an elegant suite you don’t."],
+    "source": "from: owning-qa-solo",
+    "fact": "BLOG",
+    "href": "https://syedkm.com/blog/owning-qa-solo"
+  },
+  "skyline": {
+    "login": "S-YED",
+    "kicker": "activity · rebuilt daily from the GitHub API",
+    "tags": ["@contributions", "@longest streak", "@busiest day"],
+    "subs": ["in the last year", "days in a row"],
+    "alt": "Isometric skyline of my GitHub contributions over the last year, one block per day."
+  },
+  "toolbelt": {
+    "kicker": "toolbelt",
+    "rows": {
+      "@test": ["Playwright", "Selenium", "Postman", "BrowserStack", "Keploy"],
+      "@build": ["TypeScript", "Python", "Java"],
+      "@ship": ["GitHub Actions", "CI/CD", "AWS"]
+    },
+    "fact": "TOOLS"
+  },
+  "links": {
+    "work": "https://syedkm.com/work",
+    "site": "https://syedkm.com",
+    "linkedin": "https://linkedin.com/in/s-yed",
+    "instagram": "https://instagram.com/_syedkhajamoinuddin"
+  }
+}

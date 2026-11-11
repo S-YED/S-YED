@@ -1,40 +1,53 @@
-# 💫 About Me:
-![Profile Image](https://raw.githubusercontent.com/S-YED/S-YED/e6bd0dc5e9053bac4b3ca83341342f97e15ee711/syedhit.png)
-# Hello! 👋🏻 I'm Syed Khaja Moinuddin
+<a href="https://syedkm.com/work"><img src="assets/svg/hero.svg" width="100%" alt="I test where fast-shipped and AI-powered software breaks. Sole QA · 8 production releases across web and mobile. syedkm.com/work"></a>
 
-🎓 **Open-Source Contributor | Computer Science Graduate (VTU - GEC Ramanagara)** | **Java Full Stack Developer**  
-Focused on building scalable web apps & microservices with modern backend technologies.
+I'm an SDET and the only QA on a live edtech app. Across 8 production releases on web and mobile I logged 150+ defects with steps to reproduce, and wrote 250+ test cases for a single release. I built a three-tier Playwright release gate against production, and a content tool that throws out its own draft if the AI writes a number I didn't give it. Write-ups of the work: [syedkm.com/work](https://syedkm.com/work)
 
-💻 **Skills:** Core Java, Spring Boot, REST APIs, Microservices, Docker, Kafka, PostgreSQL, HTML, CSS, JavaScript  
-☁️ Exploring **Spring Boot advanced concepts, JavaScript (frontend)**, and **Cloud (AWS)**  
-🌱 Strong in **Core Java, OOPs, DSA, and backend development**  
-🚀 Currently building a **Patient Management System (microservices architecture)**  
-🤝 **Actively looking for opportunities** to start my career and contribute to impactful projects!
+This profile is held to the same rule. The script that builds it refuses to render a number I did not supply.
 
+<img src="assets/svg/run.svg" width="100%" alt="Terminal running npx playwright test profile.spec.ts. Passed: sole QA on a live edtech app; release gate: 9 critical, 14 daily; 20+ developer PRs reviewed; CI/CD pipeline and GitFlow branching; AI drafts that invent a number fail; Keploy API Fellow, 2025. In progress: QA Forge: working demo, in progress. 6 passed · 1 in progress · 0 invented facts. Result: 8 releases, production, web and mobile; 150+ defects, logged with repro steps; 250+ test cases, one release: web, Android, iOS.">
 
+The last line is enforced. The build fails if a number here is not in my fact file.
 
+## Selected work
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.com/invite/3QG3MRU) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/people/Syed-Khaja-Moinuddin/100008455358117/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_syedkhajamoinuddin/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/s-yed/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@Skm_ahmed1) 
+<a href="https://syedkm.com/work/release-gate-suite"><img src="assets/svg/case-release-gate.svg" width="100%" alt="Case: Three-tier release gate for a live SaaS app. Context: Deep tests create real accounts in production on every run. Decision: Split the Playwright suite by what one run costs. Result: 9 critical, safe any time; 14 daily, on a schedule; 9 deep, on demand."></a>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=plastic&logo=github&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=plastic&logo=angularjs&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=plastic&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=plastic&logo=django&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=plastic&logo=mysql&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=S-YED&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<a href="https://syedkm.com/work/facts-assertion"><img src="assets/svg/case-facts-assertion.svg" width="100%" alt="Case: A content tool with a facts assertion. Context: An LLM drafts posts only from facts I enter. Decision: A number I did not supply throws the draft away. Result: 3 tries, then the run fails; 500+ tests, automated."></a>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=S-YED&theme=radical&no-frame=true&no-bg=true&margin-w=4)
+<a href="https://syedkm.com/work/local-security-harness"><img src="assets/svg/case-security-harness.svg" width="100%" alt="Case: Local QA and security harness. Context: Functional tests never ask who else can read an account. Decision: Probe access, sessions and injection on localhost only. Result: fail-closed localhost gate; seeded data cleaned up; logs never hold real values; findings stay private."></a>
 
-### ✍️ Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<img src="assets/svg/case-pratyaya.svg" width="100%" alt="Case: Scam-message checks in three languages. Context: Suspicious messages in English, Hindi and Kannada. Decision: A Python MCP server checks each against an India scam taxonomy. Result: 3 languages, English · Hindi · Kannada.">
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=S-YED&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<details><summary>Read the cases as text</summary>
 
+**[Three-tier release gate for a live SaaS app](https://syedkm.com/work/release-gate-suite)**  
+Context: Deep tests create real accounts in production on every run.  
+Decision: Split the Playwright suite by what one run costs.  
+Result: 9 critical, safe any time; 14 daily, on a schedule; 9 deep, on demand.
 
----
-[![](https://visitcount.itsvg.in/api?id=S-YED&icon=1&color=1)](https://visitcount.itsvg.in)
+**[A content tool with a facts assertion](https://syedkm.com/work/facts-assertion)**  
+Context: An LLM drafts posts only from facts I enter.  
+Decision: A number I did not supply throws the draft away.  
+Result: 3 tries, then the run fails; 500+ tests, automated.
 
+**[Local QA and security harness](https://syedkm.com/work/local-security-harness)**  
+Context: Functional tests never ask who else can read an account.  
+Decision: Probe access, sessions and injection on localhost only.  
+Result: fail-closed localhost gate; seeded data cleaned up; logs never hold real values; findings stay private.
 
-  
+**Scam-message checks in three languages**  
+Context: Suspicious messages in English, Hindi and Kannada.  
+Decision: A Python MCP server checks each against an India scam taxonomy.  
+Result: 3 languages, English · Hindi · Kannada.
 
+</details>
+
+<a href="https://syedkm.com/blog/owning-qa-solo"><img src="assets/svg/principle.svg" width="100%" alt="A boring checklist you actually run beats an elegant suite you don’t. (from: owning-qa-solo)"></a>
+
+<img src="assets/svg/skyline.svg" width="100%" alt="Isometric skyline of my GitHub contributions over the last year, one block per day.">
+
+<img src="assets/svg/toolbelt.svg" width="100%" alt="Toolbelt. test: Playwright, Selenium, Postman, BrowserStack, Keploy. build: TypeScript, Python, Java. ship: GitHub Actions, CI/CD, AWS.">
+
+> Write-ups of the work: [syedkm.com/work](https://syedkm.com/work)
+
+[syedkm.com](https://syedkm.com) · [LinkedIn](https://linkedin.com/in/s-yed) · [Instagram](https://instagram.com/_syedkhajamoinuddin)

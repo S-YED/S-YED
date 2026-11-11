@@ -1,0 +1,38 @@
+name: profile
+
+# Rebuilds the profile once a day so the activity skyline stays current,
+# and whenever the copy or the build script changes.
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["content/**", "scripts/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: python3 -I scripts/build.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check (0 invented facts)
+        run: python3 -I scripts/build.py --check
+      - name: Commit only if something changed
+        run: |
+          git add assets/svg README.md
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Rebuild profile assets"
+          git push
