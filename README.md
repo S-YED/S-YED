@@ -4,11 +4,13 @@ I'm an SDET and the only QA on a live edtech app. Across 8 production releases o
 
 This profile is held to the same rule. The script that builds it refuses to render a number I did not supply.
 
-<img src="assets/svg/run.svg" width="100%" alt="Terminal running npx playwright test profile.spec.ts. Passed: sole QA on a live edtech app; release gate: 9 critical, 14 daily; 20+ developer PRs reviewed; CI/CD pipeline and GitFlow branching; AI drafts that invent a number fail; Keploy API Fellow, 2025. In progress: QA Forge: working demo, in progress. 6 passed · 1 in progress · 0 invented facts. Result: 8 releases, production, web and mobile; 150+ defects, logged with repro steps; 250+ test cases, one release: web, Android, iOS.">
+<img src="assets/svg/run.svg" width="100%" alt="Terminal running npx playwright test profile.spec.ts. Passed: sole QA on a live edtech app; release gate: 9 critical, 14 daily; 20+ developer PRs reviewed; CI/CD pipeline and GitFlow branching; AI drafts that invent a number fail; Keploy API Fellow, 2025; QA Forge v1: live demo online. 7 passed · 0 invented facts. Result: 8 releases, production, web and mobile; 150+ defects, logged with repro steps; 250+ test cases, one release: web, Android, iOS.">
 
 The last line is enforced. The build fails if a number here is not in my fact file.
 
 ## Selected work
+
+<a href="https://github.com/S-YED/QA-Forge"><img src="assets/svg/case-qa-forge.svg" width="100%" alt="Case: Plain-English tests in a real browser. Context: Tests tied to CSS selectors break on the next UI change. Decision: Write each step in plain English. It finds elements like a person does. Result: v1 live demo online; runs in real Chromium; open source on GitHub."></a>
 
 <a href="https://syedkm.com/work/release-gate-suite"><img src="assets/svg/case-release-gate.svg" width="100%" alt="Case: Three-tier release gate for a live SaaS app. Context: Deep tests create real accounts in production on every run. Decision: Split the Playwright suite by what one run costs. Result: 9 critical, safe any time; 14 daily, on a schedule; 9 deep, on demand."></a>
 
@@ -19,6 +21,11 @@ The last line is enforced. The build fails if a number here is not in my fact fi
 <img src="assets/svg/case-pratyaya.svg" width="100%" alt="Case: Scam-message checks in three languages. Context: Suspicious messages in English, Hindi and Kannada. Decision: A Python MCP server checks each against an India scam taxonomy. Result: 3 languages, English · Hindi · Kannada.">
 
 <details><summary>Read the cases as text</summary>
+
+**[Plain-English tests in a real browser](https://github.com/S-YED/QA-Forge)**  
+Context: Tests tied to CSS selectors break on the next UI change.  
+Decision: Write each step in plain English. It finds elements like a person does.  
+Result: v1 live demo online; runs in real Chromium; open source on GitHub.
 
 **[Three-tier release gate for a live SaaS app](https://syedkm.com/work/release-gate-suite)**  
 Context: Deep tests create real accounts in production on every run.  

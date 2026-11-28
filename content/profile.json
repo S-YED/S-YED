@@ -9,7 +9,7 @@
     "F-10": { "text": "Reviewed 20+ developer PRs for logic issues, edge cases and regressions", "numbers": ["20"] },
     "F-11": { "text": "Black-box Playwright suite against production in three tiers: 9 critical, 14 daily, 9 deep on demand", "numbers": ["9", "14"] },
     "F-13": { "text": "Local-only QA and security harness: fail-closed localhost gate, seeded data cleaned with a residue check, redacted logs. Design only, findings private", "numbers": [] },
-    "F-14": { "text": "QA Forge: public repo, working demo, in progress", "numbers": [] },
+    "F-14": { "text": "QA Forge v1: public repo on GitHub with a live demo online. Test steps written in plain English run in a real Chromium browser; elements are found by label, text or role, not CSS paths", "numbers": ["1"] },
     "F-15": { "text": "Post Buddy: a facts assertion throws away any draft with a number the author did not supply; 3 tries, then the run fails. 500+ automated tests", "numbers": ["3", "500"] },
     "F-20": { "text": "Keploy API Fellow, 2025", "numbers": ["2025"] },
     "F-22": { "text": "Pratyaya (trustlens-mcp): Python MCP server that checks a suspicious message against an India scam taxonomy in English, Hindi and Kannada (3 languages)", "numbers": ["3"] },
@@ -41,7 +41,7 @@
       { "tag": "@daily", "text": "CI/CD pipeline and GitFlow branching", "fact": "F-09", "status": "pass" },
       { "tag": "@deep", "text": "AI drafts that invent a number fail", "fact": "F-15", "status": "pass" },
       { "tag": "@deep", "text": "Keploy API Fellow, 2025", "fact": "F-20", "status": "pass" },
-      { "tag": "@deep", "text": "QA Forge: working demo, in progress", "fact": "F-14", "status": "progress" }
+      { "tag": "@deep", "text": "QA Forge v1: live demo online", "fact": "F-14", "status": "pass" }
     ],
     "results": [
       { "n": "8", "tag": "@releases", "sub": "production, web and mobile", "fact": "F-05" },
@@ -50,6 +50,16 @@
     ]
   },
   "cases": [
+    {
+      "id": "qa-forge",
+      "kicker": "case · qa forge v1 · online",
+      "title": "Plain-English tests in a real browser",
+      "context": ["Tests tied to CSS selectors", "break on the next UI change."],
+      "decision": ["Write each step in plain English.", "It finds elements like a person does."],
+      "checks": ["v1 live demo online", "runs in real Chromium", "open source on GitHub"],
+      "fact": "F-14",
+      "href": "https://github.com/S-YED/QA-Forge"
+    },
     {
       "id": "release-gate",
       "kicker": "case · release gate",
